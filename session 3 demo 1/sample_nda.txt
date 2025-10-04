@@ -1,0 +1,86 @@
+NON-DISCLOSURE AGREEMENT
+
+This Non-Disclosure Agreement (the "Agreement") is entered into as of January 15, 2024 (the "Effective Date"), by and between:
+
+TechCorp Industries Inc., a Delaware corporation with its principal place of business at 123 Innovation Drive, San Francisco, CA 94105 ("Disclosing Party")
+
+AND
+
+Digital Solutions LLC, a California limited liability company with its principal place of business at 456 Market Street, San Jose, CA 95113 ("Receiving Party")
+
+WHEREAS, the Disclosing Party possesses certain confidential and proprietary information relating to advanced AI technologies, machine learning algorithms, and business strategies; and
+
+WHEREAS, the Receiving Party desires to receive such confidential information for the purpose of evaluating a potential business partnership;
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, the parties agree as follows:
+
+1. DEFINITION OF CONFIDENTIAL INFORMATION
+
+"Confidential Information" means any and all technical and non-technical information disclosed by the Disclosing Party to the Receiving Party, including but not limited to:
+   a) Trade secrets, inventions, algorithms, and software code
+   b) Product designs, specifications, and roadmaps
+   c) Business plans, financial information, and customer lists
+   d) Marketing strategies and sales data
+   e) Any information marked as "Confidential" or that a reasonable person would understand to be confidential
+
+2. OBLIGATIONS OF RECEIVING PARTY
+
+The Receiving Party agrees to:
+   a) Maintain the confidentiality of all Confidential Information
+   b) Use the Confidential Information solely for the purpose of evaluating the potential business partnership
+   c) Not disclose Confidential Information to any third party without prior written consent
+   d) Limit access to Confidential Information to employees or consultants who have a legitimate need to know
+   e) Protect Confidential Information with the same degree of care used to protect its own confidential information, but no less than reasonable care
+
+3. DURATION OF CONFIDENTIALITY OBLIGATION
+
+The obligations set forth in this Agreement shall continue for a period of five (5) years from the Effective Date, except that obligations with respect to trade secrets shall continue for as long as such information remains a trade secret under applicable law.
+
+4. EXCEPTIONS
+
+The obligations of confidentiality shall not apply to information that:
+   a) Was known to the Receiving Party prior to disclosure by the Disclosing Party
+   b) Is or becomes publicly available through no breach of this Agreement
+   c) Is rightfully received from a third party without breach of any confidentiality obligation
+   d) Is independently developed by the Receiving Party without use of Confidential Information
+   e) Is required to be disclosed by law or court order, provided that the Receiving Party gives prompt notice to the Disclosing Party
+
+5. RETURN OF MATERIALS
+
+Upon request by the Disclosing Party or upon termination of discussions, the Receiving Party shall promptly return or destroy all Confidential Information and certify in writing that such action has been completed.
+
+6. NO LICENSE
+
+Nothing in this Agreement grants the Receiving Party any license or right to use the Confidential Information except as expressly stated herein. All Confidential Information remains the sole property of the Disclosing Party.
+
+7. REMEDIES
+
+The Receiving Party acknowledges that any breach of this Agreement may cause irreparable harm to the Disclosing Party for which monetary damages would be inadequate. Therefore, the Disclosing Party shall be entitled to seek equitable relief, including injunction and specific performance, in addition to all other remedies available at law or in equity.
+
+8. TERM AND TERMINATION
+
+This Agreement shall commence on the Effective Date and continue until terminated by either party upon thirty (30) days written notice. The confidentiality obligations shall survive termination as specified in Section 3.
+
+9. GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of laws provisions.
+
+10. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between the parties concerning the subject matter hereof and supersedes all prior agreements and understandings, whether written or oral.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.
+
+TECHCORP INDUSTRIES INC.
+
+By: _______________________
+Name: Sarah Johnson
+Title: Chief Executive Officer
+Date: January 15, 2024
+
+DIGITAL SOLUTIONS LLC
+
+By: _______________________
+Name: Michael Chen
+Title: Managing Director
+Date: January 15, 2024
