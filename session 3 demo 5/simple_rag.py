@@ -10,7 +10,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_community.vectorstores import FAISS
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import TextLoader
+from langchain_core.documents import Document
 
 
 # Sample documents for our knowledge base
@@ -33,21 +33,13 @@ clustering of dense vectors. It's commonly used in RAG applications.
 """
 
 
-def create_sample_documents():
-    """Create a sample text file for demonstration"""
-    with open("knowledge_base.txt", "w") as f:
-        f.write(SAMPLE_DOCUMENTS)
-    print("✅ Created sample knowledge base file\n")
-
-
 def setup_vectorstore():
-    """Load documents, split them, and create a vector store"""
+    """Create vector store directly from text"""
     print("=== Setting up Vector Store ===\n")
 
-    # Load the document
-    loader = TextLoader("knowledge_base.txt")
-    documents = loader.load()
-    print(f"📄 Loaded {len(documents)} document(s)")
+    # Create document directly from text
+    documents = [Document(page_content=SAMPLE_DOCUMENTS, metadata={"source": "sample_knowledge"})]
+    print(f"📄 Created {len(documents)} document(s)")
 
     # Split documents into chunks
     text_splitter = RecursiveCharacterTextSplitter(
@@ -149,9 +141,6 @@ def main():
         print("   export GOOGLE_API_KEY='your-api-key'\n")
         exit(1)
 
-    # Create sample documents
-    create_sample_documents()
-
     # Setup vector store
     vectorstore = setup_vectorstore()
 
@@ -179,10 +168,6 @@ def main():
 
     for question in questions:
         ask_question(rag_chain, question)
-
-    # Cleanup
-    os.remove("knowledge_base.txt")
-    print("✅ Cleaned up temporary files")
 
     print("\n" + "=" * 60)
     print("RAG Demo Completed Successfully! 🎉")
