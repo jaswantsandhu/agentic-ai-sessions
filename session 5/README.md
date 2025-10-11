@@ -174,6 +174,8 @@ llm = ChatOpenAI(model="gpt-4o", temperature=0, api_key="your-api-key-here")
 
 ## 🎯 Running the Examples
 
+### Command Line (Python Scripts)
+
 ```bash
 # Basic example - Customer support triage
 python basic.py
@@ -187,6 +189,32 @@ python advance.py
 # Super Advanced example - Customer care with RAG
 python super_advance.py
 ```
+
+### 🎨 Interactive UI (Streamlit)
+
+Run the Streamlit frontends for interactive demos:
+
+```bash
+# Basic example with UI
+streamlit run streamlit_basic.py
+
+# Medium example with UI
+streamlit run streamlit_medium.py
+
+# Advanced example with UI
+streamlit run streamlit_advance.py
+
+# Super Advanced example with UI
+streamlit run streamlit_super_advance.py
+```
+
+**Streamlit Features:**
+- 🎯 Interactive query input
+- 📊 Real-time statistics and metrics
+- 📜 Conversation/ticket history
+- 💡 Pre-loaded example queries
+- ⚙️ Configurable parameters
+- 🎨 Beautiful, intuitive interface
 
 ---
 

@@ -1,1 +1,32 @@
+# Virtual Environment
 .venv
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ChromaDB (Vector Store)
+chroma_db/
+*.chroma
+
+# Streamlit
+.streamlit/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
